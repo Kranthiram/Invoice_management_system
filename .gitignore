@@ -1,0 +1,13 @@
+# Frontend (React)
+node_modules/
+build/
+.env
+
+# Backend (Spring Boot)
+target/
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
