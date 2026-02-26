@@ -49,3 +49,44 @@ Backend confirmation: Invoices are stored in the `invoice` table with columns li
 ```bash
 git clone https://github.com/Kranthiram/Invoice_management_system.git
 cd Invoice_management_system
+
+###2. **Database Setup**
+
+Create a MySQL database named invoiceprocessing (or update application.properties if different).
+The backend uses JPA/Hibernate — it can auto-create the invoice table on first run (ensure spring.jpa.hibernate.ddl-auto=update in server/src/main/resources/application.properties).
+No need to run SQL scripts manually unless you want custom setup.
+
+###3. **Backend (Spring Boot)**
+Bashcd server
+# Install dependencies (if using Maven wrapper)
+./mvnw clean install
+# Or with installed Maven: mvn clean install
+
+# Run the application
+./mvnw spring-boot:run
+
+Backend runs on http://localhost:8080 (default port).
+APIs: POST /invoices (add), GET /invoices (list), PUT /invoices/{id} (mark done).
+
+###4. **Frontend (React)**
+Bashcd ../client
+npm install
+npm start
+
+Frontend runs on http://localhost:3000.
+It fetches data from backend automatically.
+
+###5. **Usage**
+Start backend first.
+Start frontend.
+Open http://localhost:3000 in browser.
+Add invoices → see them appear as pending → click "MARK DONE" to update.
+
+### **Learnings & Future Improvements**
+
+Understood REST API creation in Spring Boot and frontend-backend communication (fetch/axios).
+Basic state management in React (useState/useEffect for data fetching and updates).
+Simple database persistence with JPA.
+Future: Add edit/delete, user authentication, search/filter, PDF generation, better error handling.
+
+Feel free to fork/contribute!
