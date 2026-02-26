@@ -47,3 +47,12 @@ Backend confirmation: Invoices are stored in the `invoice` table with columns li
 ```bash
 git clone https://github.com/Kranthiram/Invoice_management_system.git
 cd Invoice_management_system
+```
+### Learnings & Future Improvements
+Understood REST API creation in Spring Boot and frontend-backend communication (fetch/axios).
+Basic state management in React (useState/useEffect for data fetching and updates).
+Simple database persistence with Hibernate.
+
+Future: Add edit/delete, user authentication, search/filter, PDF generation, better error handling.
+
+Feel free to fork/contribute!
