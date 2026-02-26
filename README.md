@@ -37,8 +37,6 @@ After adding multiple invoices:
 
 Backend confirmation: Invoices are stored in the `invoice` table with columns like id, vendor, product, amount, date, action (status as 'pending').
 
-## Setup Instructions (Local Development)
-
 ### Prerequisites
 - Java 17+ (for Spring Boot)
 - Node.js 16+ and npm (for React)
