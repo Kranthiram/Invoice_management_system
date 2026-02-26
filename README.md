@@ -33,7 +33,7 @@ After adding multiple invoices:
 - Clicking "MARK DONE" updates the status (backend PUT request).
 
 ### 3. MySQL Database View
-![MySQL Workbench - Invoice Table](Screenshots/mysql-database-view.png)
+![MySQL Workbench - Invoice Table](Screenshots/mysql-invoice-table.png)
 
 Backend confirmation: Invoices are stored in the `invoice` table with columns like id, vendor, product, amount, date, action (status as 'pending').
 
