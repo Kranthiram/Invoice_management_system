@@ -53,6 +53,6 @@ Understood REST API creation in Spring Boot and frontend-backend communication (
 Basic state management in React (useState/useEffect for data fetching and updates).
 Simple database persistence with Hibernate.
 
-Future: Add edit/delete, user authentication, search/filter, PDF generation, better error handling.
+Future: Search/Filter, PDF generation, better error handling.
 
 Feel free to fork/contribute!
